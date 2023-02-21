@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F4F5;
+    margin: auto; 
+    overflow: hidden;
+}
+
+/* nav */
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav img{
+    height: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+ul li:first-child{
+    color: #20bc7e;
+}
+
+/* Hero Section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main section{
+    width: 50%;
+}
+
+.left-section{
+    margin-left: 5%;
+    position: relative;
+}
+
+.topAngle{
+    width: 25px;
+}
+
+.left-section h1{
+    font-size: 75px;
+}
+
+.left-section p{
+    color: #808080;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.left-section button{
+    border: none;
+    color: white;
+    background-color: #20bc7e;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+
+.bottomAngle{
+    position: absolute;
+    right: 30px;
+    
+}
+
+.stethoscopeImage{
+    position: absolute;
+    width: 90%;
+    height: 85vh;
+    top: -70px;
+    right: -150px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0px;
+}
+
+.greenbox, .yellowbox {
+    position: absolute;
+}
+.greenbox{
+    width: 35%;
+    right: 10px;
+    bottom: 25px;
+}
+
+.yellowbox{
+    width: 31%;
+    right: 0px;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    height:90%;
+}
